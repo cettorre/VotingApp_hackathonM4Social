@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cettorre.votingapp_hackathonm4social">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".view.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.OrganizationHomeActivity"
+            android:label="@string/title_activity_organization_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view.UserHomeActivity" />
+        <activity android:name=".view.NewEventActivity" />
+        <activity android:name=".view.UserVotingActivity"></activity>
+    </application>
+
+</manifest>
