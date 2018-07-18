@@ -1,15 +1,15 @@
-package com.example.cettorre.votingapp_hackathonm4social.view;
+package com.example.cettorre.votingapp_hackathonm4social.view.organization;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.cettorre.votingapp_hackathonm4social.R;
 
-public class NewEventActivity extends AppCompatActivity {
+public class LoginOrganizationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_event);
+        setContentView(R.layout.activity_login_organization);
     }
 }

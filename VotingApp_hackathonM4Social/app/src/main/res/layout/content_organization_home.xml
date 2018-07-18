@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".view.OrganizationHomeActivity"
+    tools:context=".view.organization.OrganizationHomeActivity"
     tools:showIn="@layout/app_bar_organization_home"
     android:orientation="vertical">
 

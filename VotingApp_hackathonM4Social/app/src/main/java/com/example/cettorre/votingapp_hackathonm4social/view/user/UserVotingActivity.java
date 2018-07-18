@@ -1,4 +1,4 @@
-package com.example.cettorre.votingapp_hackathonm4social.view;
+package com.example.cettorre.votingapp_hackathonm4social.view.user;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

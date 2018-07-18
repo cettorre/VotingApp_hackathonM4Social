@@ -1,4 +1,4 @@
-package com.example.cettorre.votingapp_hackathonm4social.view;
+package com.example.cettorre.votingapp_hackathonm4social.view.organization;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,12 +13,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageButton;
 
 import com.example.cettorre.votingapp_hackathonm4social.R;
+import com.example.cettorre.votingapp_hackathonm4social.view.EventResultActivity;
 
 public class OrganizationHomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
+    ImageButton imageButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +47,18 @@ public class OrganizationHomeActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        imageButton=findViewById(R.id.img_button_event);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(OrganizationHomeActivity.this, EventResultActivity.class);
+                startActivity(i);
+
+            }
+        });
+
+
     }
 
     @Override
@@ -93,7 +109,7 @@ public class OrganizationHomeActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.create_event) {
             Intent i = new Intent(OrganizationHomeActivity.this,NewEventActivity.class);
             startActivity(i);
 

@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.cettorre.votingapp_hackathonm4social.R;
+import com.example.cettorre.votingapp_hackathonm4social.view.organization.OrganizationHomeActivity;
+import com.example.cettorre.votingapp_hackathonm4social.view.user.UserHomeActivity;
 
 public class WelcomeActivity extends AppCompatActivity {
 

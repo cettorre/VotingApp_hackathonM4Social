@@ -17,12 +17,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.OrganizationHomeActivity"
+            android:name=".view.organization.OrganizationHomeActivity"
             android:label="@string/title_activity_organization_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".view.UserHomeActivity" />
-        <activity android:name=".view.NewEventActivity" />
-        <activity android:name=".view.UserVotingActivity"></activity>
+        <activity android:name=".view.user.UserHomeActivity" />
+        <activity android:name=".view.organization.NewEventActivity" />
+        <activity android:name=".view.user.UserVotingActivity" />
+        <activity android:name=".view.organization.LoginOrganizationActivity" />
+        <activity android:name=".view.user.LoginUserActivity" />
+        <activity android:name=".view.EventResultActivity"></activity>
     </application>
 
 </manifest>
