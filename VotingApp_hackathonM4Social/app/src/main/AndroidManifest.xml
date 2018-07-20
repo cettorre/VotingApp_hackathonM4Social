@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.cettorre.votingapp_hackathonm4social">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -25,7 +27,11 @@
         <activity android:name=".view.user.UserVotingActivity" />
         <activity android:name=".view.organization.LoginOrganizationActivity" />
         <activity android:name=".view.user.LoginUserActivity" />
-        <activity android:name=".view.EventResultActivity"></activity>
+        <activity android:name=".view.EventResultActivity" />
+
+        <service
+            android:name=".services.MyService"
+            android:exported="false"></service>
     </application>
 
 </manifest>
