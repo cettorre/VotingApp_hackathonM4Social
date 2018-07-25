@@ -33,3 +33,8 @@ VotingApp_hackathonM4Social
 <img src="screenshots/result.jpg" width="300"/>
 
 </p>
+<p align="center">
+
+<img src="screenshots/info_consulta.jpg" width="300"/>
+  
+</p>
