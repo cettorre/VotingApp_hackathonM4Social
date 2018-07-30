@@ -1,14 +1,3 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Portfolio</title>
-
-</head>
-
-<body bgcolor="#b4b2f4">
 <center><h1>Android applications portfolio of Ciro Ettorre</h1></center>
 <p align="center">
 <img src="img/github_img.png" width="400"/>
@@ -68,7 +57,3 @@ Tags : #REST, #IntentService, #Layered Pattern, #DTO, #JSON, HTTP Protocol
 <img src="img/voting/user_home.jpg" width="300"/>
 <img src="img/voting/vote.jpg" width="300"/>
 </p>
-
-
-</body >
-</html>
