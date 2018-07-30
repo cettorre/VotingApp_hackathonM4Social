@@ -1,11 +1,3 @@
-<body bgcolor="#b4b2f4">
-<center><h1>Android applications portfolio of Ciro Ettorre</h1></center>
-<p align="center">
-<img src="img/github_img.png" width="400"/>
-</p>
-</br></br>
-</br></br></br></br></br></br>
-
 <center><h2>VotingApp_hackathonM4Social Jul 2018</h2></center>
 <a href="">GitLab project</a></br>
 Tags : #REST, #IntentService, #Layered Pattern, #DTO, #JSON, HTTP Protocol
