@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,6 +24,7 @@ public class UserHomeActivity extends AppCompatActivity {
             "http://560057.youcanlearnit.net/services/json/itemsfeed.php";
     private boolean networkOk;
     TextView output;
+    ListView eventListView;
 
     private BroadcastReceiver mBroadcastReceiver = new BroadcastReceiver() {
         @Override
@@ -56,6 +58,7 @@ public class UserHomeActivity extends AppCompatActivity {
 //---------------------------------------------------
 
         output = (TextView) findViewById(R.id.output);
+        eventListView=findViewById(R.id.event_list);
 
         LocalBroadcastManager.getInstance(getApplicationContext())
                 .registerReceiver(mBroadcastReceiver,
