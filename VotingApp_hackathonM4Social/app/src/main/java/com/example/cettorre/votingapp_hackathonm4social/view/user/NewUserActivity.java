@@ -24,7 +24,7 @@ public class NewUserActivity extends AppCompatActivity {
     EditText etNewEmail;
     EditText etNewPassword;
     Button btnCreateNewUser;
-    private static final String JSON_URL ="http://192.168.0.163:8080/";
+    private static final String JSON_URL ="https://itacademybcn.herokuapp.com/hackaton/users";
     private boolean networkOk;
     Controller controller= new Controller();
     String name;
