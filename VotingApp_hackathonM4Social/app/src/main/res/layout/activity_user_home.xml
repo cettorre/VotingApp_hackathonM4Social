@@ -7,63 +7,13 @@
     tools:context=".view.user.UserHomeActivity"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="15dp"
-        >
-
-        <ImageButton
-            android:layout_width="200dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/event1"
-            android:background="@color/white"
-
-            />
-        <ImageButton
-            android:id="@+id/img_btn_vote"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/vote2"
-            android:background="@color/white"
-            />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_margin="15dp"
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-
-        <ImageButton
-            android:layout_width="200dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/event2"
-            android:background="@color/white"
-
-            />
-        <ImageButton
-            android:id="@+id/img_btn_vote2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/vote2"
-            android:background="@color/white"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/output"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
     <ListView
         android:id="@+id/event_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></ListView>
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:longClickable="true"></ListView>
 
 
 </LinearLayout>

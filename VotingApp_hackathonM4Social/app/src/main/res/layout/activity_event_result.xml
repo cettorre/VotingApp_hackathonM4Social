@@ -8,23 +8,23 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Result of the votation"
-        android:textSize="28dp"
-        android:layout_gravity="center_horizontal"/>
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/result"/>
-    <TextView
         android:padding="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The option 2 has been the most voted among participants"
+        android:text="This graph displays how many votes received each option "
+        android:textColor="@color/colorPrimary"
         android:textSize="28dp"
         android:layout_gravity="center_horizontal"/>
+    <com.jjoe64.graphview.GraphView
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:id="@+id/graph"
+
+        />
+
+
+
 
 
 </LinearLayout>

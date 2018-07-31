@@ -8,9 +8,9 @@
             <item
                 android:id="@+id/create_event"
                 android:icon="@drawable/voting_icon"
-                android:title="Create voting event" />
+                android:title="Create voting evento" />
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/old_event_list_nav"
                 android:icon="@drawable/ic_menu_manage"
                 android:title="Edit organization" />
 
@@ -18,23 +18,23 @@
     </item>
 
 
-    <item android:title="Open Last events result">
+    <item android:title="Open Last eventos result">
         <menu>
 
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/create_new_event"
             android:icon="@drawable/voting_icon"
             android:title="Event" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/vote_size-1"
             android:icon="@drawable/voting_icon"
             android:title="Event" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/vote_size-2"
             android:icon="@drawable/voting_icon"
             android:title="Event" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/vote_size-3"
             android:icon="@drawable/voting_icon"
             android:title="Event" />
         </menu>

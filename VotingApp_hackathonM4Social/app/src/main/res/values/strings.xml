@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">VotingApp_hackathonM4Social</string>
-    <string name="title_activity_organization_home">OrganizationHomeActivity</string>
+    <string name="title_activity_organization_home">Lista de consultas</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Organization</string>
     <string name="nav_header_subtitle">organization@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="info_vote">Please Note: We recommend that anyone interested in obtaining specific information on state voter ID requirements contact election officials in the jurisdiction where the person wishes to register and vote.</string>
+    <string name="info_vote">voter ID requirements contact election officials in the jurisdiction where the person wishes to register and vote.</string>
 </resources>
